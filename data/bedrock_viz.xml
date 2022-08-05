@@ -164,7 +164,7 @@
       <blockvariant blockdata="0x7" name="Piston (6-sided)" />
       <blockvariant blockdata="0x8" name="Piston (Extended)" />
     </block>
-    <block id="0x22" name="Piston Head" uname="minecraft:pistonarmcollision;minecraft:pistonArmCollision" color="0x8f8d4c" solid="0" opaque="0" spawnable="0" /> <!-- *S 0.15 -->
+    <block id="0x22" name="Piston Head" uname="minecraft:piston_arm_collision" color="0x8f8d4c" solid="0" opaque="0" spawnable="0" /> <!-- *S 0.15 -->
     <block id="0x23" name="Wool" uname="minecraft:wool"> <!-- *B -->
       <blockvariant blockdata="0x0" color="0xDDDDDD" dcolor="1" name="Wool, White" />
       <blockvariant blockdata="0x1" color="0xDB7D3E" dcolor="1" name="Wool, Orange" />
@@ -203,7 +203,7 @@
     <block id="0x28" name="Red Mushroom" uname="minecraft:red_mushroom" color="0xfe9c9c" solid="0" opaque="0" spawnable="0" />
     <block id="0x29" name="Block of Gold" uname="minecraft:gold_block" color="0xfcfe50" />
     <block id="0x2A" name="Block of Iron" uname="minecraft:iron_block" color="0xdddddb" />
-    <block id="0x2B" name="Double Stone Slab" uname="minecraft:double_stone_slab" color="0x919191">
+    <block id="0x2B" name="Double Stone Slab" uname="minecraft:stone_block_slab" color="0x919191">
       <blockvariant blockdata="0x0" name="Double Slab, Stone" />
       <blockvariant blockdata="0x1" name="Double Slab, Sandstone" />
       <blockvariant blockdata="0x2" name="Double Slab, Wooden" />
@@ -402,7 +402,7 @@
     <block id="0x81" name="Emerald Ore" uname="minecraft:emerald_ore" color="0x77d17d" />
     <block id="0x82" name="Ender Chest" uname="minecraft:ender_chest" color="0x484848" /> <!-- 0.17 -->
     <block id="0x83" name="Tripwire Hook" uname="minecraft:tripwire_hook" color="0x454545" solid="0" /> <!-- *S 0.13 -->
-    <block id="0x84" name="Tripwire" uname="minecraft:tripwire;minecraft:tripWire" color="0xa7a7a7" solid="0" /> <!-- *I *S 0.13 -->
+    <block id="0x84" name="Tripwire" uname="minecraft:tripwire;minecraft:trip_wire" color="0xa7a7a7" solid="0" /> <!-- *I *S 0.13 -->
     <block id="0x85" name="Block of Emerald" uname="minecraft:emerald_block" color="0x6dbc73" />
     <block id="0x86" name="Stairs, Spruce Wood" uname="minecraft:spruce_stairs" color="0x696a29" spawnable="0"> <!-- *S -->
       <blockvariant blockdata="0x0" name="Stairs, Spruce Wood, East" />
@@ -645,7 +645,7 @@
       <blockvariant blockdata="0x1" color="0x004040" name="Prismarine, Dark" /> <!-- 0.16 -->
       <blockvariant blockdata="0x2" color="0x006060" name="Prismarine, Bricks" /> <!-- 0.16 -->
     </block>
-    <block id="0xA9" name="Sea Lantern" uname="minecraft:sealantern" color="0x00cccc" opaque="1" spawnable="1" /> <!-- *S 0.16 --> <!-- todo color -->
+    <block id="0xA9" name="Sea Lantern" uname="minecraft:sea_lantern" color="0x00cccc" opaque="1" spawnable="1" /> <!-- *S 0.16 --> <!-- todo color -->
     <block id="0xAA" name="Hay Bale" uname="minecraft:hay_block" color="0xd8d385" />
     <block id="0xAB" name="Carpet" uname="minecraft:carpet" solid="0" opaque="0" spawnable="0"> <!-- *S *B -->
       <blockvariant blockdata="0x0" color="0xDDDDDD" dcolor="7" name="Carpet, White" />
@@ -702,7 +702,7 @@
       <blockvariant blockdata="0x6" name="Stairs, Red Sandstone, South (Upside-down)" spawnable="1" />
       <blockvariant blockdata="0x7" name="Stairs, Red Sandstone, North (Upside-down)" spawnable="1" />
     </block>
-    <block id="0xB5" name="Double Stone Slab(2)" uname="minecraft:double_stone_slab2" color="0xcebe8f">
+    <block id="0xB5" name="Double Stone Slab(2)" uname="minecraft:stone_block_slab2" color="0xcebe8f">
       <blockvariant blockdata="0x0" name="Double Slab, Red Sandstone" />
       <blockvariant blockdata="0x1" name="Double Slab, Purpur" />
       <blockvariant blockdata="0x2" name="Double Slab, Prismarine" />
@@ -1179,7 +1179,7 @@
       <!--blockvariant blockdata="0xE" name="Upper Slab, " spawnable="1" /-->
       <!--blockvariant blockdata="0xF" name="Upper Slab, " spawnable="1" /-->
     </block>
-    <block id="0x1a6" name="Double Stone Slab(3)" uname="minecraft:double_stone_slab3" color="0xded99d">
+    <block id="0x1a6" name="Double Stone Slab(3)" uname="minecraft:stone_block_slab3" color="0xded99d">
       <blockvariant blockdata="0x0" name="Double Slab, End Stone Brick" />
       <blockvariant blockdata="0x1" name="Double Slab, Smooth Red Sandstone" />
       <blockvariant blockdata="0x2" name="Double Slab, Polished Andesite" />
@@ -1189,7 +1189,7 @@
       <blockvariant blockdata="0x6" name="Double Slab, Granite" />
       <blockvariant blockdata="0x7" name="Double Slab, Polished Granite" />
     </block>
-    <block id="0x1A7" name="Double Stone Slab(4)" uname="minecraft:double_stone_slab4" color="0x8a9e98">
+    <block id="0x1A7" name="Double Stone Slab(4)" uname="minecraft:stone_block_slab4" color="0x8a9e98">
       <blockvariant blockdata="0x0" name="Double Slab, Mossy Stone Brick" />
       <blockvariant blockdata="0x1" name="Double Slab, Smooth Quartz" />
       <blockvariant blockdata="0x2" name="Double Slab, Stone" />
@@ -1293,7 +1293,7 @@
     <block id="0x1d5" name="Lit Blast Furnace" uname="minecraft:lit_blast_furnace" color="0xfd570b" />
     <block id="0x1d6" name="Light Block" uname="minecraft:light_block" color="0xfd572b" />
     <block id="0x1d7" name="Wither Rose" uname="minecraft:wither_rose" color="0xa52a3a" />
-    <block id="0x1d8" name="Sticky Piston Head " uname="minecraft:stickypistonarmcollision" color="0x8b9e9b" />
+    <block id="0x1d8" name="Sticky Piston Head " uname="minecraft:sticky_piston_arm_collision" color="0x8b9e9b" />
     <block id="0x1d9" name="Bee Nest" uname="minecraft:bee_nest" color="0x585757" />
     <block id="0x1da" name="BeeHive" uname="minecraft:beehive" color="0x585758" />
     <block id="0x1db" name="Honey Block" uname="minecraft:honey_block" color="0x585759" />
