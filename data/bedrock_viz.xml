@@ -164,7 +164,7 @@
       <blockvariant blockdata="0x7" name="Piston (6-sided)" />
       <blockvariant blockdata="0x8" name="Piston (Extended)" />
     </block>
-    <block id="0x22" name="Piston Head" uname="minecraft:piston_arm_collision" color="0x8f8d4c" solid="0" opaque="0" spawnable="0" /> <!-- *S 0.15 -->
+    <block id="0x22" name="Piston Head" uname="minecraft:piston_arm_collision;minecraft:pistonArmCollision" color="0x8f8d4c" solid="0" opaque="0" spawnable="0" /> <!-- *S 0.15 -->
     <block id="0x23" name="Wool" uname="minecraft:wool"> <!-- *B -->
       <blockvariant blockdata="0x0" color="0xDDDDDD" dcolor="1" name="Wool, White" />
       <blockvariant blockdata="0x1" color="0xDB7D3E" dcolor="1" name="Wool, Orange" />
@@ -908,7 +908,7 @@
     </block>
     <block id="0xF8" name="Update Game Block (update!) [note 1]" uname="minecraft:info_update" color="0xCC0001" /> <!-- todo -->
     <block id="0xF9" name="Update Game Block (ate!upd)" uname="minecraft:info_update2" color="0xCC0100" /> <!-- todo -->
-    <block id="0xFA" name="Block moved by Piston" uname="minecraft:movingblock;minecraft:movingBlock" color="0x8a9d9a" opaque="0" spawnable="0" /> <!-- *S *E 0.16? -->
+    <block id="0xFA" name="Block moved by Piston" uname="minecraft:moving_block;minecraft:movingBlock" color="0x8a9d9a" opaque="0" spawnable="0" /> <!-- *S *E 0.16? -->
     <block id="0xFB" name="Observer" uname="minecraft:observer" color="0xa13d3d" opaque="0" spawnable="0"> <!-- *S *E 0.15 -->
       <blockvariant blockdata="0x0" name="Observer (Down)" />
       <blockvariant blockdata="0x1" name="Observer (Up)" />
@@ -1293,7 +1293,7 @@
     <block id="0x1d5" name="Lit Blast Furnace" uname="minecraft:lit_blast_furnace" color="0xfd570b" />
     <block id="0x1d6" name="Light Block" uname="minecraft:light_block" color="0xfd572b" />
     <block id="0x1d7" name="Wither Rose" uname="minecraft:wither_rose" color="0xa52a3a" />
-    <block id="0x1d8" name="Sticky Piston Head " uname="minecraft:sticky_piston_arm_collision" color="0x8b9e9b" />
+    <block id="0x1d8" name="Sticky Piston Head " uname="minecraft:sticky_piston_arm_collision;minecraft:stickyPistonArmCollision" color="0x8b9e9b" />
     <block id="0x1d9" name="Bee Nest" uname="minecraft:bee_nest" color="0x585757" />
     <block id="0x1da" name="BeeHive" uname="minecraft:beehive" color="0x585758" />
     <block id="0x1db" name="Honey Block" uname="minecraft:honey_block" color="0x585759" />
