@@ -402,7 +402,7 @@
     <block id="0x81" name="Emerald Ore" uname="minecraft:emerald_ore" color="0x77d17d" />
     <block id="0x82" name="Ender Chest" uname="minecraft:ender_chest" color="0x484848" /> <!-- 0.17 -->
     <block id="0x83" name="Tripwire Hook" uname="minecraft:tripwire_hook" color="0x454545" solid="0" /> <!-- *S 0.13 -->
-    <block id="0x84" name="Tripwire" uname="minecraft:tripwire;minecraft:trip_wire" color="0xa7a7a7" solid="0" /> <!-- *I *S 0.13 -->
+    <block id="0x84" name="Tripwire" uname="minecraft:trip_wire;minecraft:tripWire" color="0xa7a7a7" solid="0" /> <!-- *I *S 0.13 -->
     <block id="0x85" name="Block of Emerald" uname="minecraft:emerald_block" color="0x6dbc73" />
     <block id="0x86" name="Stairs, Spruce Wood" uname="minecraft:spruce_stairs" color="0x696a29" spawnable="0"> <!-- *S -->
       <blockvariant blockdata="0x0" name="Stairs, Spruce Wood, East" />
