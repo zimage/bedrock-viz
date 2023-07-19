@@ -645,7 +645,7 @@
       <blockvariant blockdata="0x1" color="0x004040" name="Prismarine, Dark" /> <!-- 0.16 -->
       <blockvariant blockdata="0x2" color="0x006060" name="Prismarine, Bricks" /> <!-- 0.16 -->
     </block>
-    <block id="0xA9" name="Sea Lantern" uname="minecraft:sea_lantern" color="0x00cccc" opaque="1" spawnable="1" /> <!-- *S 0.16 --> <!-- todo color -->
+    <block id="0xA9" name="Sea Lantern" uname="minecraft:sea_lantern;minecraft:seaLantern" color="0x00cccc" opaque="1" spawnable="1" /> <!-- *S 0.16 --> <!-- todo color -->
     <block id="0xAA" name="Hay Bale" uname="minecraft:hay_block" color="0xd8d385" />
     <block id="0xAB" name="Carpet" uname="minecraft:carpet" solid="0" opaque="0" spawnable="0"> <!-- *S *B -->
       <blockvariant blockdata="0x0" color="0xDDDDDD" dcolor="7" name="Carpet, White" />
