@@ -34,6 +34,8 @@
 | `shaded-relief[=did]`                          | Create a shaded relief image |
 | `slime-chunk[=did]`                            | Create a slime chunk map image |
 | `no-force-geojson`                             | Don't load geojson in html because we are going to use a web server (or Firefox) |
+|  limit-x=did,min,max                           | Limit generation in dimension did to chunks between min and max (x chunk coordinate) |
+|  limit-z=did,min,max                           | Limit generation in dimension did to chunks between min and max (z chunk coordinate) |
 | `shortrun`                                     | Debug testing parameter - process only first 1000 records |
 | `leveldb-filter=i`                             | Bloom filter supposed to improve disk performance (default: 10) |
 | `leveldb-block-size=i`                         | The block size of leveldb (default: 4096) |
@@ -54,7 +56,7 @@ No other file will be looked at for configuration if that file is found.
 
    a. The base config file: `bedrock-viz.cfg`. This is the configuration as delivered with the visualizer, with basic settings that should produce an informative map out of the box. This file is subject to be replaced and changed from release to release.
 
-   b. Your local configuration additions: `bedrock-viz.local.cfg`. This file is where you should put your personal configuration. Document the player ids for the users in your world, configure the blocks that you don't care about, or that you find important enough to export as identifiable in the web app. The project does not provide this file, you own it entirely.
+   b. Your local configuration additions: `bedrock_viz.local.cfg`. This file is where you should put your personal configuration. Document the player ids for the users in your world, configure the blocks that you don't care about, or that you find important enough to export as identifiable in the web app. The project does not provide this file, you own it entirely.
 
    These two files will be searched for in three locations each, the first one found will be used:
 

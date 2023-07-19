@@ -12,7 +12,7 @@
 [![Discord](https://img.shields.io/discord/726889889806942310?logo=discord&logoColor=white&style=plastic)](https://discord.gg/dWhQNvbPw6)
 
 
-A fork of [mcpe_viz](https://github.com/Plethora777/mcpe_viz.git), now maintained by [Jasper Wan](https://github.com/jasper-wan).
+A fork of [mcpe_viz](https://github.com/Plethora777/mcpe_viz.git).
 
 Bedrock Viz is a tool that parses Minecraft Bedrock Edition world files.  It creates overview images from the world files, and reports *lots* of details on your world.
 
@@ -38,9 +38,9 @@ Additional Features:
 
 ## Quick Start
 
-For Windows 10 users:
+For Windows users:
 
-* [Download the zip file](https://github.com/bedrock-viz/bedrock-viz/releases/download/v0.1.7/bedrock-viz_v0.1.7_win10-64.zip) and unzip that file
+* [Download the zip file](https://github.com/bedrock-viz/bedrock-viz/releases/download/v0.1.8/bedrock-viz_v0.1.8_win_x64.zip) and unzip that file
 * Inside you will find `bedrock-viz.exe`
 * Run `bedrock-viz.exe` in your favorite terminal program (such as `Command Prompt` or `Power Shell`)
 
@@ -51,7 +51,7 @@ For macOS users(requires macOS 10.15 and above):
   ```
 
 For Linux users:
-* [Download the source](https://github.com/bedrock-viz/bedrock-viz/releases/download/v0.1.7/bedrock-viz_v0.1.7_linux.tar.gz) and compiling from source
+* [Download the source](https://github.com/bedrock-viz/bedrock-viz/releases/download/v0.1.7/bedrock-viz_v0.1.8_linux.tar.gz) and compiling from source
 
 **DO NOT RUN THIS ON YOUR ORIGINAL WORLD SAVES**
 
